@@ -2,7 +2,7 @@ public class Car implements Cloneable {
 
   private String name;
   private String color;
-  EngineInTheCar engineInTheCar;
+  protected EngineInTheCar engineInTheCar;
 
   public Car(String name, String color, String setEngine) {
     this.name = name;
